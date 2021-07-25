@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+}
+
+.portal-form-container {
+    width: 50vw;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 30px;
+}
+
+.portal-form-container .main-logo {
+    width: 243px;
+    cursor: pointer;
+}
+
+.portal-form-container h1 {
+    font-size: 60px;
+    font-weight: 500;
+    color: rgba(13, 36, 60, 0.95);
+    line-height: 70px;
+    letter-spacing: 0.03rem;
+}
+
+.portal-image-container {
+    width: 50vw;
+    background-color: #0D243C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portal-image-container .bg-image {
+    width: 700px;
+    height: auto;
+}
